@@ -1,0 +1,14 @@
+.MuiTabs-flexContainer {
+    justify-content: center;
+}
+.tabsSec_heading{
+    color: #082742;
+    font-size: 3rem;
+}
+.Tabs_Inside_heading{
+  color: #fe712b;  
+}
+.Tabs_Inside{
+    padding-left: 10vh;
+    padding-right: 10vh;
+}

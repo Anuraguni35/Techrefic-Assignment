@@ -1,0 +1,30 @@
+.FootSec{
+    background-color: #28377c;
+    padding: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;   
+}
+.FootSec_Content{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;   
+}
+.FootSec_container{
+    color:white;
+    width: 25vh;
+}
+.FootSec_ul{
+list-style-type: none;
+padding-left:0px;
+}
+.FootSec_heading{
+    margin-bottom: 4vh;
+}
+.footSec_Logo{
+   background-image: url("../images/FooterFoot.png"); 
+   background-repeat: no-repeat;
+   height: 10vh;
+   width:50vh;
+   
+}

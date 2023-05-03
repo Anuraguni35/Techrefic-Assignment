@@ -1,0 +1,54 @@
+.logo{
+background-image: url('../images/Logo.png');
+background-repeat: no-repeat;
+background-size: cover;
+width: 27vh;
+height: 8vh;
+align-self: center;
+position: absolute;
+left: 20vh;
+}
+.mail_logo{
+    background-image: url('../images/mail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 7vh;
+    height: 7vh;
+}
+.mail_content{
+    width: 15vh;
+    text-align: initial;
+}
+.phone_content{
+    width: 20vh;
+    text-align: initial;
+}
+.phone_logo{
+    background-image: url('../images/phone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 7vh;
+    height: 7vh;  
+}
+.Header_contact_details{
+    display: flex;
+     
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+}
+ 
+@media screen and (max-width: 780px){
+     .Header_contact_details{
+        display: none;
+     }
+     .logo{
+        position: absolute;
+        left: 17vh;
+        }  
+   
+}

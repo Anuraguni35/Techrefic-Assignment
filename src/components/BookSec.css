@@ -1,0 +1,42 @@
+.BookingSec{
+    background-image: url("../images/BookingSec.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55vh;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.BookingSec_heading{
+    color: #fe712b;
+    font-size: 3rem;
+}
+.BookingSec_btn{
+    background-color: #fe712b;
+    border: 0px;
+    color:white;
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin-right: 1em;
+}
+.BookingSec_btn_container{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 780px){
+    .BookingSec_btn_container{
+        flex-direction: column;
+    }
+    .BookingSec_btn{
+        width: 30vh;
+        align-self: center;
+        margin-top: 1em;
+    }
+    .BookingSec{
+        height: 70vh; 
+    }
+}

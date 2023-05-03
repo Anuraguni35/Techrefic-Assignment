@@ -1,0 +1,36 @@
+.thumbs{
+    display: none;
+}
+.carousel-status{
+    display: none;
+}
+.caroselImg{
+    height: 30vh;
+    position: absolute;
+    top: 20vh;
+    left: 20vh;
+    width: 32vh !important;
+    border-radius: 15vh;
+    border: 2px solid #fe712b !important;
+} 
+.legend{
+    /* color: white; */
+     background-color: transparent !important;
+     color: white !important;
+     width: 50% !important;
+     position: absolute !important;
+     top: 171px !important;
+     font-size: 1em !important;
+     left: 130vh !important;
+}
+@media screen and (max-width: 780px){
+    .legend{
+        display: none !important;
+    }
+    .caroselImg{
+        top: 4vh;
+        height: 20vh;  
+        width: 21vh !important;
+        left: 20vh;
+    }
+}
